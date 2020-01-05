@@ -1,0 +1,19 @@
+h1 {
+  color: black;
+  text-align: center;
+}
+
+body {
+  text-align: center;
+  background: linear-gradient(to right, red, pink);
+}
+
+input {
+  padding: 0;
+  border: 0;
+}
+
+textarea {
+  width: 325px;
+  height: 17px;
+}
