@@ -1,11 +1,23 @@
+*{
+  box-sizing: border-box;
+}
 h1 {
-  color: black;
+  color: #eee;
   text-align: center;
+  background-color: rgba(66, 47, 241, 0.308);
+  margin: 0%;
+  padding:1.5%;
+
 }
 
 body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
   text-align: center;
-  background: linear-gradient(to right, red, pink);
+  background: linear-gradient(to right, red, rgb(0,0,255)) no-repeat;
+ 
 }
 
 input {
@@ -14,6 +26,49 @@ input {
 }
 
 textarea {
-  width: 325px;
-  height: 17px;
+text-align: center;
+padding: 1%;
+}
+button{
+  padding: 2% 4%;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+#form-container{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+margin-top: 1%;
+height: 60vh;
+color: white;
+font-size: large;
+font-weight: 700;
+}
+
+#form{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  max-width: 600px;
+  height: 100%;
+  justify-content: space-evenly;
+}
+
+#code-copy{
+  display: flex;
+  flex-direction: column;
+}
+
+select{
+  padding:1%;
+}
+
+option{
+ font-size: 1.1em;
+}
+#shape-container{
+  display: none;
 }
